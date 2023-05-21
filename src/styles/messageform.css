@@ -1,0 +1,40 @@
+.message-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.message-form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.message-form input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.message-form button {
+    background-color: #87bb64;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.message-form button:hover {
+    background-color: #5e8d40;
+}
+
+.message-form .message-form-timestamp {
+    font-size: 12px;
+    color: #999999;
+    margin-left: 10px;
+}

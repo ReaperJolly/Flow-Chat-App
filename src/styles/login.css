@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../library/logos/minimal.webp');
+    background-size: auto;
+    background-position: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login .quote {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.login p {
+    color: #87bb64;
+    margin-bottom: 10px;
+}
+
+.login img {
+    width: 350px;
+    height: 350px;
+}
+
+.login a {
+    color: #87bb64;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: #ffffff;
+    background-color: #87bb64;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.login footer {
+    color: #87bb64;
+    font-size: 12px;
+    margin-top: 30px;
+}
